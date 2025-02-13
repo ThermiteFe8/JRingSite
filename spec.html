@@ -1,0 +1,35 @@
+<html lang = "en">
+<head>
+	<meta charset="UTF=8">
+	<meta name="viewport" content="width=device-width, inital-scale=1.0">
+	<title>Ring Me Up</title>
+	<link rel = "stylesheet" href = "style.css">
+</head>
+<script src="include.js"></script>
+<body>
+	<div w3-include-html="header.html">
+		
+	</div>
+
+	<div id= "centralContent">
+
+	</div>
+	
+	<div w3-include-html="footer.html">
+		
+	</div>
+</body>
+
+<script>
+	includeHTML();
+</script> 
+<script src="moduleLoader.js"></script>
+<script src="hiddenScript.js"></script>
+<script src="scrollToTop.js"></script>
+<script type="module" src="https://md-block.verou.me/md-block.js"></script>
+<script>
+	let params = new URLSearchParams(document.location.search);
+	let id = params.get("id");
+	getData(id+".json");
+</script>
+</html>

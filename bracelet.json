@@ -1,0 +1,36 @@
+{
+  "linkModule": [
+    {
+      "name": "Box Bracelet",
+      "thumbnail": "Thumbnails/Bracelet.png",
+      "description": "Your standard box-weave bracelet! Comes with rubber rings because yikes.",
+	  "id": "braceletBox",
+	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a Box Bracelet! \n[INSERT OTHER INSTRUCTIONS INCLUDING WRIST SIZE]"
+	  "price": 12.00
+    },
+	{
+      "name": "Box Bracelet with Clamp",
+      "thumbnail": "Thumbnails/Bracelet.png",
+      "description": "Makes it easier to put on than the standard box-weave bracelet. Since it's got the clamp, you don't need rubber rings.",
+	  "id": "braceletBoxClamp",
+	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a  cube! \n[INSERT OTHER INSTRUCTIONS INCLUDING WRIST SIZE AND WHETHER YOU WANT RUBBER RINGS]"
+	  "price": 15.00
+    },
+	{
+      "name": "DNA Bracelet",
+      "thumbnail": "Thumbnails/Bracelet.png",
+      "description": "I don't even know if this is a thing, but it seems funny. Comes with rubber rings.",
+	  "id": "braceletDNA",
+	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a big cube! \n[INSERT OTHER INSTRUCTIONS INCLUDING WRIST SIZE]"
+	  "price": 17.50
+    },
+	{
+      "name": "DNA Bracelet with Clamp",
+      "thumbnail": "Thumbnails/Bracelet.png",
+      "description": "Same as the DNA Bracelet, but with a clamp. Since it has a clamp, you don't need rubber rings.",
+	  "id": "braceletDNAClamp",
+	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a big cube! \n[INSERT OTHER INSTRUCTIONS INCLUDING WRIST SIZE AND WHETHER YOU WANT RUBBER RINGS]"
+	  "price": 20.00
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+:root
+{
+	--bar-color:#AE445A;
+	--center-color:#4B4376;
+	--item-color:#E8BCB9;
+	--backdrop-color:#432E54;
+}
+
+@font-face
+{
+	font-family: "OpenDyslexic";
+	src:
+		url("fonts/OpenDyslexic-Regular.otf") format("opentype");
+}
+
+#headerbar, #headerbarsmall
+{
+	color:white;
+	font-family:"Times New Roman", Times, serif;
+	display:flex;
+	flex-wrap:wrap;
+	background-color:var(--center-color);
+	border:var(--bar-color) solid 3px;
+	overflow:visible;
+	font-size:5vh;
+	width:100%;
+}
+.flexfiller
+{
+	flex-grow:3;
+	max-width:100%;
+}
+#headerbar *, #headerbarsmall *
+{
+	padding-left:1.5vh;
+	padding-right:1.5vh;
+	border:var(--bar-color) solid 2px;
+	border-style: none solid none solid;
+	color:white;
+	text-decoration:none;
+	max-height:100%;
+}
+
+#headerbar * img, #headerbarsmall * img
+{
+	margin-top:2%;
+	margin-bottom:auto;
+	border:none;
+	max-height:5vh;
+	
+}
+
+
+
+@media screen and (max-width:155vh)
+{
+	#headerbar
+	{
+		display:none;
+	}
+	#headerbarsmall
+	{
+		display:flex;
+	}
+	#centralContent
+	{
+		width:96vw;
+	}
+	.homeBox
+	{
+	width:100%;
+	}
+	#homeContainer
+	{
+		flex-direction:column;
+	}
+	.infoBox
+	{
+		max-width:45%;
+		
+	}
+
+}
+@media screen and (min-width:155vh)
+{
+	#headerbar
+	{
+		display:flex;
+	}
+	#headerbarsmall
+	{
+		display:none;
+	}
+	#centralContent
+	{
+		width:140vh;
+	}
+	.homeBox
+	{
+	width:31%;
+	}
+	#homeContainer
+	{
+		flex-direction:row;
+	}
+	
+	.infoBox
+	{
+		max-width:22%;
+		margin-left:2%;
+	}
+
+}
+
+#verticalMenu
+{
+	font-family:"Times New Roman", Times, serif;
+	margin:auto;
+	padding-top:2.5vh;
+	display:flex;
+	flex-direction:column;
+	min-width:50vh;
+	text-align:center;
+	font-size:7vh;
+}
+
+#verticalMenu *
+{
+	color:black;
+}
+
+#backVertical
+{
+	text-decoration:underline;
+	font-family:"Times New Roman", Times, serif;
+	font-size:5vh;
+	padding-left:10%
+}
+
+
+
+.menuOverlay
+{
+	padding-top:3.5vh;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	min-width:100vw;
+	min-height:100vh;
+	z-index:1;
+	background-color:var(--center-color);
+}
+
+.hidden
+{
+	display:none;
+}
+
+
+
+#footerbar
+{
+	font-family:"Times New Roman", Times, serif;
+	background-color:var(--center-color);
+	margin-top:auto;
+	width:100%;
+	display:flex;
+	font-size:3.5vh;
+	align-content:stretch;
+	justify-content:flex-end;
+	min-height:5vh;
+	margin-right:5%;
+	border:var(--bar-color) solid 3px;
+}
+#footerbar *
+{
+	margin-top:1vh;
+	margin-bottom:1vh;
+	min-height:3.5vh;
+	min-width:8.5vh;
+	margin-right:2vh;
+	color:white;
+}
+
+
+header
+{
+	padding:0;
+	margin:0;
+}
+
+body
+{
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+	padding:0;
+	margin:0;
+}
+
+html
+{
+	
+	background-color:var(--backdrop-color);
+	background-attachment:fixed;
+	padding:0;
+	margin:0;
+	
+}
+
+
+#centralContent
+{
+	margin-top:3.5vh;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:var(--center-color);
+	border:var(--bar-color) solid 3px;
+	min-height:80vh;
+	border-radius:7px;
+	margin-bottom:3.5vh;
+	
+}
+
+.infoBox
+{
+	display:flex;
+	flex-direction:column;
+	background-color:var(--bar-color);
+	justify-content:center;
+	font-family: "Times New Roman", Times, serif;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2.5%;
+	margin-bottom:2.5%;
+	border-radius:10px;
+}
+
+
+#homeContainer
+{
+	display:flex;
+	justify-content:center;
+	align-content:center;
+	max-width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#infoBoxHolder
+{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-items:flex-start:
+}
+
+.infoBox *
+{
+	max-width:90%;
+	
+}
+
+.thumbnailInfoBox
+{
+	padding-top:1%;
+	margin:auto;
+	display:flex;
+	justify-content:center;
+}
+.titleBoxInfoBox
+{
+	display:flex;
+	width:95%;
+	justify-content:center;
+	align-items:center;
+	min-height:9%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:1%;
+	font-size:3.2vh;
+}
+.titleBoxInfoBox *
+{
+	color:white;
+	margin-top:1%;
+	min-height:3.2vh;
+	margin-bottom:0.5%;
+	text-decoration:underline;
+	font-weight:bold;
+}
+.descriptionInfoBox
+{
+	font-size:2vh;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0%;
+	color:white;
+}
+.price
+{
+	font-size:4vh;
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0%;
+	margin-top:0%;
+	color:white;
+}
+.markdownContainer
+{
+	margin-top:5%;
+	max-width:90%;
+	background-color:var(--item-color);
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:2%;
+	margin-bottom:2%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	border-radius:10px;
+}
+
+.downloadIcon
+{
+  display: inline;
+  margin: 0 0.125em;
+  padding: 0;
+  vertical-align: sub;
+  height:1.5rem;
+}
+
+.downloadLink
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size:1.25rem;
+	text-align:center;
+	text-decoration:underline;
+	color:black;
+}
+
+
+md-block 
+{
+	max-width:90%;
+	font-family: "Times New Roman", Times, serif;
+}
+
+md-block *
+{
+	margin-left:2%;
+	margin-right:2%;
+	max-width:100%;
+}
+
+md-block * *
+{
+	margin-left:0%;
+	margin-right:0%;
+}
+
+md-block h1, h2
+{
+	text-align:center;
+	text-decoration:underline;
+}
+
+
+md-block ul li ul
+{
+	font-size: 85%;
+}
+
+button {
+  background-color: var(--item-color);
+  border: none;
+  margin-left:auto;
+  margin-right:auto;
+  color: black;
+  text-align: center;
+  cursor:pointer;
+  display: inline-block;
+  border-radius:10px;
+  margin-bottom:5%;
+  font-size:5vh;
+  padding:2.5%;
+  text-align:center;
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+button a
+{
+	color:black;
+}
+
+

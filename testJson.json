@@ -1,0 +1,19 @@
+{
+  "linkModule": [
+    {
+      "name": "nameTest",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-right",
+      "download": "radical.pdf",
+      "thumbnail": "TestMediumImg.png",
+      "description": "lorum ipsum etc description ohohohohohoho",
+	  "newTab": true
+    }
+  ],
+  "markdownModule": [
+    {
+      "source": "radical.md",
+      "download": "radical.pdf",
+	  "description": "Download these Notes!"
+    }
+  ]
+}
