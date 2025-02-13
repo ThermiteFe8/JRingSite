@@ -5,7 +5,7 @@
       "thumbnail": "Thumbnails/Cube.png",
       "description": "A big cube! This takes a thousand years, but you can ask for different colors on the inside for fun effects!",
 	  "id": "cubeBig",
-	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a big cube! \n[INSERT OTHER INSTRUCTIONS]"
+	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a big cube! \n[INSERT OTHER INSTRUCTIONS]",
 	  "price": 20.00
     },
 	{
@@ -13,7 +13,7 @@
       "thumbnail": "Thumbnails/Cube.png",
       "description": "A cube made with big-ass rings, so that it jiggles a lot. Honestly, it barely looks like a cube, but it's extra fun to shake and it makes a fun sound.",
 	  "id": "cubeLoose",
-	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a  cube! \n[INSERT OTHER INSTRUCTIONS]"
+	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a  cube! \n[INSERT OTHER INSTRUCTIONS]",
 	  "price": 15.00
     },
 	{
@@ -21,7 +21,7 @@
       "thumbnail": "Thumbnails/Cube.png",
       "description": "A cube with a pride pattern. If you are homophobic on my website you will get struck by lightning a thousand times",
 	  "id": "cubePride",
-	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a big cube! \n[INSERT OTHER INSTRUCTIONS]"
+	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a big cube! \n[INSERT OTHER INSTRUCTIONS]",
 	  "price": 17.50
     }
   ]

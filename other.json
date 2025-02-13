@@ -5,7 +5,7 @@
       "thumbnail": "Thumbnails/sheet.png",
       "description": "Just a sheet made of European 4 in 1s! Just specify what size you want because otherwise I will choose at random",
 	  "id": "sheet4in1",
-	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a [LENGTH] by [WIDTH] 4 in 1 Sheet! \n[INSERT OTHER INSTRUCTIONS]"
+	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a [LENGTH] by [WIDTH] 4 in 1 Sheet! \n[INSERT OTHER INSTRUCTIONS]",
 	  "price": 12.00
     },
 	{
@@ -13,7 +13,7 @@
       "thumbnail": "Thumbnails/Choker.png",
       "description": "That thing Jack ordered - the one that looks like a Jester or Kermit the Frog's neck thing? Just make sure to specify your neck Circumference.",
 	  "id": "choker",
-	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a Choker! \n[INSERT OTHER INSTRUCTIONS INCLUDING NECK CIRCUMFERENCE AND LENGTH]"
+	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a Choker! \n[INSERT OTHER INSTRUCTIONS INCLUDING NECK CIRCUMFERENCE AND LENGTH]",
 	  "price": 15.00
     },
 	{
@@ -21,7 +21,7 @@
       "thumbnail": "Thumbnails/Gauntlet.png",
       "description": "These things go around your forearms. If you want leather straps, let me know. Also tell me how big your... forearms are??",
 	  "id": "gauntlet",
-	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a pair of Gauntlets! \n[INSERT OTHER INSTRUCTIONS INCLUDING WRIST SIZE AND ELBOW RADIUS]"
+	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a pair of Gauntlets! \n[INSERT OTHER INSTRUCTIONS INCLUDING WRIST SIZE AND ELBOW RADIUS]",
 	  "price": 25.00
     },
 	{
@@ -29,7 +29,7 @@
       "thumbnail": "Thumbnails/BF.png",
       "description": "I ran out of items to pad out this category.",
 	  "id": "BF",
-	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a big cube! \n[INSERT OTHER INSTRUCTIONS INCLUDING WRIST SIZE AND WHETHER YOU WANT RUBBER RINGS]"
+	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a big cube! \n[INSERT OTHER INSTRUCTIONS INCLUDING WRIST SIZE AND WHETHER YOU WANT RUBBER RINGS]",
 	  "price": 20.00
     }
   ]
