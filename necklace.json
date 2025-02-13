@@ -5,7 +5,7 @@
       "thumbnail": "Thumbnails/Necklace.png",
       "description": "I don't remember the name of this weave. It looks like DNA and it's very cool.",
 	  "id": "necklaceDNA",
-	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a DNA Necklace! \n[INSERT OTHER INSTRUCTIONS INCLUDING LENGTH]"
+	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a DNA Necklace! \n[INSERT OTHER INSTRUCTIONS INCLUDING LENGTH]",
 	  "price": 20.00
     },
 	{
@@ -13,7 +13,7 @@
       "thumbnail": "Thumbnails/Necklace.png",
       "description": "I'm gonna be honest I don't remember the other weaves for Necklaces. I'm just making stuff up now.",
 	  "id": "necklace4In",
-	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a 4 in 1 Necklace! \n[INSERT OTHER INSTRUCTIONS INCLUDING LENGTH]"
+	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a 4 in 1 Necklace! \n[INSERT OTHER INSTRUCTIONS INCLUDING LENGTH]",
 	  "price": 15.00
     },
 	{
@@ -21,7 +21,7 @@
       "thumbnail": "Thumbnails/Necklace.png",
       "description": "I wasn't lying - I'm just making stuff up. I think this one's just the DNA one with some bones attached to it.",
 	  "id": "necklaceBone",
-	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a bone necklace! \n[INSERT OTHER INSTRUCTIONS INCLUDING LENGTH]"
+	  "emailBody": "Hello! I'm [NAME HERE]! \nI'm emailing to order a bone necklace! \n[INSERT OTHER INSTRUCTIONS INCLUDING LENGTH]",
 	  "price": 17.50
     }
   ]
