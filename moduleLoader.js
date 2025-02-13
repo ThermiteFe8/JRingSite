@@ -31,8 +31,12 @@ function jsonInputHandler(jsonInput)
 	{
 		if(linkModule.length > 0)
 		{
-			const infoBoxContainerContainer = document.createElement("div");
-			infoBoxContainerContainer.setAttribute('id', 'infoBoxHolder');
+			var infoBoxContainerContainer = document.getElementById('infoBoxHolder');
+			if(infoBoxContainerContainer == null)
+			{
+				infoBoxContainerContainer = document.createElement("div")
+				infoBoxContainerContainer.setAttribute('id', 'infoBoxHolder');
+			}
 			for(let i = 0; i < linkModule.length; i++)
 			{
 				var infoBoxContainer = document.createElement("div");
@@ -83,6 +87,7 @@ function jsonInputHandler(jsonInput)
 				
 				var buyButton = document.createElement("button");
 				buyButton.setAttribute('class', 'BuyButton');
+				buyButton.innerHTML = "Buy Now!";
 				
 				var buyLink = document.createElement("a");
 				buyLink.setAttribute('href', 'mailto:'+myEmail+'?subject='+defSubject+linkModule[i].id+'&body='+linkModule[i].emailBody);
