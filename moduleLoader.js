@@ -1,9 +1,11 @@
 const myEmail = "thermitefe8@gmail.com"
 const defSubject = "Chainmail Purchase For "
+var urlHolder;
 
 async function getData(urlName) {
   const url = urlName;
   try {
+	  urlHolder=url;
     const response = await fetch(url);
     if (!response.ok) {
       throw new Error(`Response status: ${response.status}`);
@@ -13,7 +15,7 @@ async function getData(urlName) {
     console.log(json);
 	jsonInputHandler(json);
   } catch (error) {
-    console.error(error.message);
+    console.error(error.message + url);
   }
 }
 
@@ -86,7 +88,7 @@ function jsonInputHandler(jsonInput)
 				buyLink.setAttribute('href', 'mailto:'+myEmail+'?subject='+defSubject+linkModule[i].id+'&body='+linkModule[i].emailBody);
 				buyButton.appendChild(buyLink);
 				
-				infoBoxContainer.appednChild(buyButton);
+				infoBoxContainer.appendChild(buyButton);
 				
 				infoBoxContainerContainer.appendChild(infoBoxContainer);
 				
