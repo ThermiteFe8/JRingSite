@@ -1,4 +1,4 @@
-const myEmail = "thermitefe8@gmail.com"
+const myEmail = "parlettj22@gmail.com"
 const defSubject = "Chainmail Purchase For "
 var urlHolder;
 
